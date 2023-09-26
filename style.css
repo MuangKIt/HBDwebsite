@@ -1,0 +1,136 @@
+body {
+	background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+	padding: 0;
+}
+#bg {
+    background-image: url("image/bg.png");
+	height: 680px;
+	padding: 0;
+	margin: 2% 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.baord {
+	position: absolute;
+	left: 35%;
+}
+
+.Ptoey {
+	position: absolute;
+	bottom : 0;
+	left: 32%;
+	z-index: 2;
+	opacity:0;
+	transition: 0.2s;
+}
+
+.Ptoey2 {
+	position: absolute;
+	bottom : 0;
+	left: 33%;
+}
+
+.Ptoey:hover{
+	opacity:1;
+}
+
+.book {
+	position: absolute;
+	bottom: 0;
+}
+
+.radio {
+	position: absolute;
+	bottom: 67%;
+	left: 11%;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.radio:hover {
+	transform: scale(1.1);
+}
+
+.gift {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.gift:hover {
+	transform: scale(1.1);
+}
+
+#paper {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: -30%;
+	transition: 0.5s;
+}
+
+.drawTon {
+	position: absolute;
+	right: 1%;
+	top: 15%;
+	transition: 0.3s;
+}
+
+.drawTon:hover {
+	transform: scale(1.1);
+}
+
+#drawTon_overlay {
+	position: absolute;
+	height: 600px;
+	right: 32%;
+	top: 10%;
+	z-index: 0;
+	display: none;
+	transition: 0.5s;
+}
+
+.drawToey {
+	position: absolute;
+	right: 12%;
+	top: 15%;
+	transition: 0.3s;
+}
+
+.drawToey:hover {
+	transform: scale(1.1);
+}
+
+#drawToey_overlay {
+	position: absolute;
+	height: 600px;
+	right: 32%;
+	top: 10%;
+	z-index: 0;
+	display: none;
+	transition: 0.5s;
+}
+
+.drawYuuna {
+	position: absolute;
+	right: 23%;
+	top: 15%;
+	transition: 0.3s;
+}
+
+.drawYuuna:hover {
+	transform: scale(1.1);
+}
+
+#drawYuuna_overlay {
+	position: absolute;
+	height: 600px;
+	right: 32%;
+	top: 10%;
+	z-index: 0;
+	display: none;
+	transition: 0.5s;
+}

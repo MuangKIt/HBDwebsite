@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD_Ptoey</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js"></script>
+</head>
+	
+<body>
+	
+	<section id="bg">
+		<div id="bg2">
+		<img class="baord" height="220" src="image/Board.png"/>
+		
+		<img class="Ptoey2" src="image/PT.png" height="420"/>
+		<img class="Ptoey" src="image/PT smile.png"/>
+		
+		<img class="book" src="image/bookshelf.png"/>
+			<img class="radio" src="image/Radio.png" onclick="audio.play();"/>
+		
+		<img class="gift" src="image/gifts.png" onclick="openPaper()"/>
+		<img Id="paper" src="image/paper.png" onclick="closePaper()"/>
+		
+		<img class="drawTon" src="image/1.png" onclick="open_drawTon_overlay()" />
+		<img class="drawToey" src="image/2.png" onclick="open_drawToey_overlay()"/>
+		<img class="drawYuuna" src="image/3.png" onclick="open_drawYuuna_overlay()"/>
+		</div>
+	</section>
+	
+	<img Id="drawTon_overlay" src="image/1(overlay).png" onclick="close_drawTon_overlay()"/>
+	<img Id="drawToey_overlay" src="image/2(overlay).png" onclick="close_drawToey_overlay()"/>
+	<img Id="drawYuuna_overlay" src="image/3(overlay).png" onclick="close_drawYuuna_overlay()"/>
+	
+</body>
+	
+</html>
